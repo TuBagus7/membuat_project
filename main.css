@@ -26,7 +26,7 @@ ol,ul,img,p{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(255, 126, 41);
 }
 #navbar li{
     float: left;
@@ -38,6 +38,9 @@ ol,ul,img,p{
     padding: 14px 16px;
     text-decoration: none;
 }
-#navbar li:last-child a{
+#navbar li:last-child{
     float:right;
+}
+#navbar li:hover{
+    background-color: black ;
 }
