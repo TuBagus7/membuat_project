@@ -86,4 +86,16 @@ tr:hover{
     text-align: center;
     color: white;
     margin-top: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.form-register{
+    position: static;
+    margin-bottom: 100px;
+}
+.conter-form{
+    max-width: 70%;
+    margin: auto;
 }
