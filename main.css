@@ -13,7 +13,7 @@ hr{
 h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
-ol,ul,img,p{
+.skill, ol,img,p{
     display: block;
     max-width: 500px;
     margin-top: 0;
@@ -21,29 +21,42 @@ ol,ul,img,p{
     margin-right: auto;
     margin-left: auto;
 }
-#navbar{
+
+nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(255, 126, 41);
+    background-color: rgb(44, 213, 213);
+    position: sticky;
+    top: 0;
 }
-#navbar li{
+nav ul li{
     float: left;
+    position: sticky;
+    top: 0;
 }
-#navbar a{
+nav li a{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    position: sticky;
+    top: 0;
 }
-#navbar li:last-child{
+nav li:last-child {
     float:right;
+    position: sticky;
+    top: 0;
 }
-#navbar li:hover{
+nav li:hover{
     background-color: black ;
+    position: sticky;
+    top: 0;
 }
+
+
 *{
     margin: 0;
     padding: 0;
