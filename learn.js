@@ -25,6 +25,7 @@ console.log('x ++ =',x++)//menampilkan hasil dari postfix increment
 console.log('++x =',++x)//menampilkan hasil dari prefix increment
 console.log('x-- =',x--)//menampilkan hasil dari postfix decrement
 console.log('--x =',--x)//menampilkan hasil dari prefix decrement
+
 //melakukan operasi sederhana dengan operator perbandingan 
 let a = 12
 let b = 6
@@ -37,3 +38,15 @@ console.log('a == b =', a == b)//menampilkan hasil equal to
 console.log('a != b =', a != b)//menampilkan hasil Not equal to
 console.log('a ==== b =', a === b)//menampilkan hasil Equal value and equal type
 console.log('a !== b =', a !== b)//menampilkan hasil Not equal value and not equal type to
+
+//melakukan operasi sederhana dengan operator logika
+console.log('true && ture =',true && true)//menampilkan hasil Logical And true dengan true
+console.log('true && false =',true && false)//menampilkan hasil Logical And true dengan false
+console.log('false && ture =',false && true)//menampilkan hasil Logical And false dengan true
+console.log('false && false =',false && false)//menampilkan hasil  Logical And false dengan false
+console.log('true || ture =',true || true)//menampilkan hasil  Logical Or true dengan true
+console.log('true || false =',true || false)//menampilkan hasil Logical Or true dengan false
+console.log('false || ture =',false || true)//menampilkan hasil Logical Or false dengan true
+console.log('false || false =',false || false)//menampilkan hasil Logical Or false dengan false
+console.log('!true =', !true)//menampilkan hasil Logical Not dari true
+console.log('!false =', !false)//menampilkan hasil Logical Not dari false
