@@ -25,4 +25,15 @@ console.log('x ++ =',x++)//menampilkan hasil dari postfix increment
 console.log('++x =',++x)//menampilkan hasil dari prefix increment
 console.log('x-- =',x--)//menampilkan hasil dari postfix decrement
 console.log('--x =',--x)//menampilkan hasil dari prefix decrement
-
+//melakukan operasi sederhana dengan operator perbandingan 
+let a = 12
+let b = 6
+console.log( a, b )//menampilkan value dari x & b
+console.log('a > b =', a > b)//menampilkan hasil Greater than
+console.log('a < b =', a < b)//menampilkan hasil Less than
+console.log('a >= b =', a >= b)//menampilkan hasil Greater than equal to
+console.log('a <= b =', a <= b)//menampilkan hasil Less than equal to
+console.log('a == b =', a == b)//menampilkan hasil equal to
+console.log('a != b =', a != b)//menampilkan hasil Not equal to
+console.log('a ==== b =', a === b)//menampilkan hasil Equal value and equal type
+console.log('a !== b =', a !== b)//menampilkan hasil Not equal value and not equal type to
