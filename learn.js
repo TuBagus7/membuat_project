@@ -9,9 +9,9 @@ console.log(myString);
 console.log(myBoolean);
 console.log(phi);
 //menampilkan informasi dalam bentuk alert pada window
-window.alert("Angka favorit saya adalah : "+myNumber);
+/*window.alert("Angka favorit saya adalah : "+myNumber);
 window.alert('Angka favorit saya adalah : '+myNumber);
-window.alert('Angka favorit saya adalah : ${myNumber}');
+window.alert('Angka favorit saya adalah : ${myNumber}');*/
 //melakukan operasi sederhana dengan operator aritmatika
 let x = 8
 let y = 4
@@ -65,7 +65,21 @@ function volume_balok(p,l,t) {//membuat fungsi untuk volume balok dengan 3 param
     console.log('volume balok =',balok);//menampilkan hasil dari volume balok
 }
 
-
 luas_persegi(4); //memanggil fungsi luas_persegi
 luas_segitiga(5,10); //memanggil fungsi luas_segitia
 volume_balok(12,7,5); //memanggil fungsi volume_balok
+
+// bermain dengan Array
+var animal = ["Monkey", "Snake", "Tiger", "Fish", "Bird"];
+console.log(animal[0]);
+console.log(animal[1] = "Lion");//mengganti element dengan indeks 1 dengan nama yang lain
+console.log(animal[2]);
+console.log(animal[3]);
+console.log(animal[4]);
+console.log(animal.push("Chicken"));//menambahkan item baru pada array
+console.log(animal.pop());//Menghilangkan item pada array 
+console.log(animal.length);//menghitung ukuran array
+console.log(animal.unshift("Shark"));//menambahkan item di awal array
+console.log(animal.shift());//menampilkan item pertama pada array sekaligus menghilangkannya dari array
+console.log(animal.sort());//mengurutkan array
+console.log(animal.reverse());//Membuat array terurut secara kebalikannya 
