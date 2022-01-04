@@ -50,3 +50,22 @@ console.log('false || ture =',false || true)//menampilkan hasil Logical Or false
 console.log('false || false =',false || false)//menampilkan hasil Logical Or false dengan false
 console.log('!true =', !true)//menampilkan hasil Logical Not dari true
 console.log('!false =', !false)//menampilkan hasil Logical Not dari false
+
+//membuat fungsi
+function luas_persegi(s) {//membuat fungsi untuk luas persegi dengan 1 parameter (s)
+    let persegi = s*s;//membuat variabel dari luas persegi 
+    console.log('luas persegi =',persegi);//menampilkan hasil dari luas persegi
+}
+function luas_segitiga(a,t) {//membuat fungsi untuk luas segitiga dengan 2 parameter (a, t)
+    let segitiga = 0.5 * a * t;//membuat variabel dari luas segitiga
+    console.log('luas segitiga =',segitiga);//menampilkan hasil dari luas segitiga
+}
+function volume_balok(p,l,t) {//membuat fungsi untuk volume balok dengan 3 parameter (p, l, t)
+    let balok = p * l * t;//membuat variabel dari volume balok
+    console.log('volume balok =',balok);//menampilkan hasil dari volume balok
+}
+
+
+luas_persegi(4); //memanggil fungsi luas_persegi
+luas_segitiga(5,10); //memanggil fungsi luas_segitia
+volume_balok(12,7,5); //memanggil fungsi volume_balok
