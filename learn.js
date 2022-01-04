@@ -83,3 +83,24 @@ console.log(animal.unshift("Shark"));//menambahkan item di awal array
 console.log(animal.shift());//menampilkan item pertama pada array sekaligus menghilangkannya dari array
 console.log(animal.sort());//mengurutkan array
 console.log(animal.reverse());//Membuat array terurut secara kebalikannya 
+
+//bermain dengan objek
+let person = {
+    firstName : "Tu Bagus ",
+    lastName : "Dwi Fikri",
+    NPM : 203510366,
+    fullName : function () {
+        return this.firstName + " " + this.lastName;
+    }
+};
+//mengakses property / method pada objek dengan menggunakan Dot Notation
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.NPM);
+console.log(person.fullName());
+//mengakses property / method pada objek dengan menggunakan Bracket Notation
+console.log(person["firstName"]);
+console.log(person["lastName"]);
+console.log(person["NPM"]);
+console.log(person["fullName"]());
+
